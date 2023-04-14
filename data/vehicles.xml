@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfVehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Vehicle xsi:type="Scooter">
+    <Id>4</Id>
+    <Engine>
+      <Power>150</Power>
+      <Capacity>1.5</Capacity>
+      <Type>HEV</Type>
+      <SerialNumber>4560014</SerialNumber>
+    </Engine>
+    <Chassis>
+      <NumOfWheels>2</NumOfWheels>
+      <Number>1</Number>
+      <LoadCapacity>40</LoadCapacity>
+    </Chassis>
+    <Transmission>
+      <Type>Manual</Type>
+      <NumOfGears>5</NumOfGears>
+      <Manufacturer>HONDA</Manufacturer>
+    </Transmission>
+    <ExtraSeat>false</ExtraSeat>
+  </Vehicle>
+  <Vehicle xsi:type="Truck">
+    <Id>3</Id>
+    <Engine>
+      <Power>500</Power>
+      <Capacity>10</Capacity>
+      <Type>Diesel</Type>
+      <SerialNumber>5479</SerialNumber>
+    </Engine>
+    <Chassis>
+      <NumOfWheels>10</NumOfWheels>
+      <Number>2</Number>
+      <LoadCapacity>1500</LoadCapacity>
+    </Chassis>
+    <Transmission>
+      <Type>RTX</Type>
+      <NumOfGears>6</NumOfGears>
+      <Manufacturer>MAN</Manufacturer>
+    </Transmission>
+    <WheelSize>60</WheelSize>
+  </Vehicle>
+  <Vehicle xsi:type="Bus">
+    <Id>2</Id>
+    <Engine>
+      <Power>200</Power>
+      <Capacity>3</Capacity>
+      <Type>Diesel</Type>
+      <SerialNumber>456174</SerialNumber>
+    </Engine>
+    <Chassis>
+      <NumOfWheels>4</NumOfWheels>
+      <Number>1</Number>
+      <LoadCapacity>700</LoadCapacity>
+    </Chassis>
+    <Transmission>
+      <Type>Manual</Type>
+      <NumOfGears>4</NumOfGears>
+      <Manufacturer>ISUZU</Manufacturer>
+    </Transmission>
+    <NumOfSeats>30</NumOfSeats>
+  </Vehicle>
+  <Vehicle xsi:type="Car">
+    <Id>5</Id>
+    <Engine>
+      <Power>200</Power>
+      <Capacity>3</Capacity>
+      <Type>ESS</Type>
+      <SerialNumber>654127</SerialNumber>
+    </Engine>
+    <Chassis>
+      <NumOfWheels>4</NumOfWheels>
+      <Number>1</Number>
+      <LoadCapacity>500</LoadCapacity>
+    </Chassis>
+    <Transmission>
+      <Type>Automatic</Type>
+      <NumOfGears>6</NumOfGears>
+      <Manufacturer>Eaton</Manufacturer>
+    </Transmission>
+    <Weight>300</Weight>
+  </Vehicle>
+</ArrayOfVehicle>
